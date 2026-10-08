@@ -9,5 +9,10 @@
 <body>
 <header>
     <h1><a href="index.php">📒 Agenda Telefónica</a></h1>
+    <?php if (!empty($_SESSION['usuario'])): ?>
+        <div class="sesion">
+            <?= e($_SESSION['nombre']) ?> | <a href="logout.php">Cerrar sesión</a>
+        </div>
+    <?php endif; ?>
 </header>
 <main>

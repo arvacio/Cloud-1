@@ -88,3 +88,9 @@ td.acciones form { margin: 0; }
     tr { border: 1px solid #e1e4e8; margin-bottom: 10px; border-radius: 4px; }
     td { border: none; }
 }
+
+/* Login */
+header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+.sesion { color: #ecf0f1; }
+.sesion a { text-decoration: underline; }
+.login { max-width: 360px; margin: 0 auto; }

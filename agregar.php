@@ -1,5 +1,6 @@
 <?php
 require_once 'includes/conexion.php';
+require_once 'includes/auth.php';
 require_once 'includes/validar.php';
 
 $contacto = ['nombre' => '', 'apellidos' => '', 'telefono' => '', 'email' => '', 'direccion' => ''];

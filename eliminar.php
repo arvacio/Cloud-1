@@ -1,5 +1,6 @@
 <?php
 require_once 'includes/conexion.php';
+require_once 'includes/auth.php';
 
 // Solo se permite eliminar mediante POST (desde el botón de la lista)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

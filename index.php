@@ -1,5 +1,6 @@
 <?php
 require_once 'includes/conexion.php';
+require_once 'includes/auth.php';
 
 $pdo = conectar();
 $buscar = trim($_GET['buscar'] ?? '');
